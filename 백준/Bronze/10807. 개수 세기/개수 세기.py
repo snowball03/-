@@ -1,4 +1,14 @@
-n = int(input())
-im = list(map(int, input().split()))
 a = int(input())
-print(im.count(a))
+cnt = 0
+num = []
+
+num = list(map(int, input().split())) 
+
+b = int(input())
+
+for i in num:
+    if b == i:
+        cnt += 1 
+
+print(cnt)
+
